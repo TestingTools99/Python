@@ -26,9 +26,6 @@ bot.collect_question("Which course is best for Gen AI?")
 bot.suggest_course()
 
 print("-------------------------------")
-
-bot = CustomerSupportBot()
-
 bot.welcome_user()
 bot.collect_question("My Outlook Not working")
 bot.solve_customer_issue()
